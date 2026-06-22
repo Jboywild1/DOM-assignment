@@ -9,6 +9,12 @@ function colorChange() {
   document.body.style.backgroundColor = randomColor;
 }
 
+function colorChange2() {
+  const randomColor =  '#' + Math.floor(Math.random() * 16777215).toString(16);
+
+  document.body.style.color = randomColor;
+}
+
 
 document.querySelector("#newL").addEventListener("click", newList);
 
